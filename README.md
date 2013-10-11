@@ -8,7 +8,7 @@ by cosmic rays.  Has a number of options for controlling how the
 labels are generated.
 
 # Usage
-
+<pre>
 usage: dnsbitflip label [-u] [-8] [-c] [-d]
         
 dnsbitflip is used to generate a list DNS labels that a single DNS label 
@@ -37,7 +37,7 @@ Options:
       needed, say for frequency analysis, then this option will include them.
       Duplicates that differ only in case will all be output in lower case 
       unless -u is also specified.
-      
+</pre>      
 # Examples
 
 Using the tool for the single character label 'c' generates the following
@@ -51,41 +51,41 @@ results, depending on the options chosen:
     </thead>
     <tbody>
         <tr>
-            <td>a
-            b
-            g
-            k
+            <td>a<br />
+            b<br />
+            g<br />
+            k<br />
             s
             </td>
-            <td>C
-            a
-            b
-            g
-            k
+            <td>C<br />
+            a<br />
+            b<br />
+            g<br />
+            k<br />
             s
             </td>
-            <td>#
-            a
-            b
-            g
-            k
-            s
+            <td>#<br />
+            a<br />
+            b<br />
+            g<br />
+            k<br />
+            s<br />
             ?
             </td>
-            <td>#
-            C
-            a
-            b
-            g
-            k
-            s
+            <td>#<br />
+            C<br />
+            a<br />
+            b<br />
+            g<br />
+            k<br />
+            s<br />
             ?
             </td>
-            <td>a
-            b
-            c
-            g
-            k
+            <td>a<br />
+            b<br />
+            c<br />
+            g<br />
+            k<br />
             s
             </td>
         </tr>
