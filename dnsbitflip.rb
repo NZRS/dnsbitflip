@@ -97,7 +97,7 @@ LDH = /[a-zA-Z0-9\-.]/
 results = []
 
 (0..($source_len-1)).each do |l|
-  c = $source[l]
+  c = $source[l].ord
   batch = []                # holds the strings generated from flipping just this character
 
   # build the two parts on either side of the character to be flipped
