@@ -1,6 +1,6 @@
 #!/usr/bin/ruby
 
-# dnsbitflip
+# dnsbitflip.rb
 #
 # A tool that generates the various DNS labels that may be accidentally 
 # queried through unexpected single bit flipping, such as those caused 
@@ -106,7 +106,7 @@ results = []
 
 
   BITS.each do |b|                               # now go through each bit
-    f = (c & b == b ? c - b : c + b).chr         # flip it
+    f = (c & b == b ? c - b : c + b).chr(Encoding::UTF_8)         # flip it
     if $arg_8 || f =~ LDH                        # check that it is an allowed character if not doing 8 bit
       f.downcase! unless $arg_u
       ps = lhs + f + rhs                         # create the bit flipped string

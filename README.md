@@ -70,7 +70,7 @@ results, depending on the options chosen:
             g<br />
             k<br />
             s<br />
-            ?
+            ã
             </td>
             <td>#<br />
             C<br />
@@ -79,7 +79,7 @@ results, depending on the options chosen:
             g<br />
             k<br />
             s<br />
-            ?
+            ã
             </td>
             <td>a<br />
             b<br />
