@@ -7,6 +7,8 @@ queried through unexpected single bit flipping, such as those caused
 by cosmic rays.  Has a number of options for controlling how the 
 labels are generated.
 
+Provided both as a Ruby 2 script and Python 3 script.
+
 # Usage
 <pre>
 usage: dnsbitflip label [-u] [-8] [-c] [-d]
